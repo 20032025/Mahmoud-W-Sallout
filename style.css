@@ -51,12 +51,13 @@ body{
     margin-bottom:20px;
     margin: auto;
     display: block;
+    padding: 10px ;
 }
 
 .images{
     display:grid;
     grid-template-columns:1fr;
-    gap:15px;
+    gap:11px;
 }
 
 .images img{
@@ -100,4 +101,5 @@ body{
     opacity:0.7;
 
 }
+
 
