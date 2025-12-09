@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mada", sans-serif;
+  background: #050e18;
+  padding: 15px;
+}
+
+/* الهيدر */
+.header {
+  font-family: "Playwrite NO", cursive;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 21px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/* النص العلوي */
+.big {
+  font-family: 'Lateef', serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #7AC7FF;
+}
+
+
+.text {
+  font-family: 'Lateef', serif;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.big1 {
+  font-family: 'Lateef', serif;
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #C7E6FF;
+}
+
+.small {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* الصور */
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 12px;
+  margin: 15px 0;
+}
+
+.img-box {
+  border: 3.5px solid #7AC7FF;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: 0.3s;
+}
+
+/* الهوفر */
+.img-box:hover {
+  transform: scale(1.05);
+  border-color: #7AC7FF;
+}
+
+.img-box:hover img {
+  opacity: 0.8;
+}
+
+/* الفقرة تحت الصور */
+.bottom-text p {
+  text-align: right;
+  margin: 20px 0;
+  font-family: 'Lateef', serif;
+  font-size: 25px;
+  padding: 15px 15px;
+  font-weight: 900 ;
+}
+
+/* الفوتر */
+.footer {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 19px;
+  opacity: 0.7;
+  color: #FFFFFF;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+}
